@@ -1,20 +1,30 @@
-# Instalasi ALBot
-Sudah pasti require <b>[Python](https://www.python.org/downloads/)</b> , install <b>[Python](https://www.python.org/downloads/)</b> terlebih dahulu: <b>[Click Disini](https://www.python.org/downloads/)</b>
+# Instalasi ALBot Termux
+Pastikan sudah install <b>[Termux](https://f-droid.org/F-Droid.apk)</b>
+
 
 <br>
 
+
 ```bash
+apt update && apt upgrade
+```
+- **Install python**
+```sh
+pkg install python
+```
+- **Clone script**
+```sh
 git clone https://github.com/ddalgifh/ALBot
 ```
 - **Masuk kedalam directory**
 ```sh
 cd ALBot
 ```
-- **Jalankan Requirement Modul di Terminal ( CMD )**
+- **Jalankan Requirement Modul di Termux**
 ```sh
 pip install -r requirements.txt
 ```
-- **Jalankan main.py**
+- **Jalankan al.py**
 ```bash
 python al.py
 ```
