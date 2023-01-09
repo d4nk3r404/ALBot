@@ -8,6 +8,10 @@ Pastikan sudah install <b>[Termux](https://f-droid.org/F-Droid.apk)</b>
 ```bash
 apt update && apt upgrade
 ```
+- **Install git**
+```sh
+pkg install git
+```
 - **Install python**
 ```sh
 pkg install python
