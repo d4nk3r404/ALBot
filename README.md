@@ -8,7 +8,7 @@ git clone https://github.com/ddalgifh/ALBot
 ```
 - **Masuk kedalam directory**
 ```sh
-cd MySPAMBot-OTP
+cd ALBot
 ```
 - **Jalankan Requirement Modul di Terminal ( CMD )**
 ```sh
@@ -16,8 +16,5 @@ pip install -r requirements.txt
 ```
 - **Jalankan main.py**
 ```bash
-python main.py
+python al.py
 ```
-<br>
-
-
